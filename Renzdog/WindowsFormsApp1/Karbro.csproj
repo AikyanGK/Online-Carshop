@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AD8FC408-3F6B-473D-92A8-51D4BAAB1CB1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="audiForm.Designer.cs">
+      <DependentUpon>audiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bmwForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bmwForm.Designer.cs">
+      <DependentUpon>bmwForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="carBrands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carBrands.Designer.cs">
+      <DependentUpon>carBrands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts.cs" />
+    <Compile Include="carClass.cs" />
+    <Compile Include="dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dialog.Designer.cs">
+      <DependentUpon>dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dodgeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dodgeForm.Designer.cs">
+      <DependentUpon>dodgeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ferrariForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ferrariForm.Designer.cs">
+      <DependentUpon>ferrariForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fordForm.Designer.cs">
+      <DependentUpon>fordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hondaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hondaForm.Designer.cs">
+      <DependentUpon>hondaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jaguarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jaguarForm.Designer.cs">
+      <DependentUpon>jaguarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lamborghiniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lamborghiniForm.Designer.cs">
+      <DependentUpon>lamborghiniForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="porscheForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="porscheForm.Designer.cs">
+      <DependentUpon>porscheForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="recieptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recieptForm.Designer.cs">
+      <DependentUpon>recieptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="volvoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="volvoForm.Designer.cs">
+      <DependentUpon>volvoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logInForm.Designer.cs">
+      <DependentUpon>logInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cashOutForm.Designer.cs">
+      <DependentUpon>cashOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="audiForm.resx">
+      <DependentUpon>audiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bmwForm.resx">
+      <DependentUpon>bmwForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carBrands.resx">
+      <DependentUpon>carBrands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialog.resx">
+      <DependentUpon>dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dodgeForm.resx">
+      <DependentUpon>dodgeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ferrariForm.resx">
+      <DependentUpon>ferrariForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fordForm.resx">
+      <DependentUpon>fordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hondaForm.resx">
+      <DependentUpon>hondaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jaguarForm.resx">
+      <DependentUpon>jaguarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lamborghiniForm.resx">
+      <DependentUpon>lamborghiniForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="porscheForm.resx">
+      <DependentUpon>porscheForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recieptForm.resx">
+      <DependentUpon>recieptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="volvoForm.resx">
+      <DependentUpon>volvoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logInForm.resx">
+      <DependentUpon>logInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashOutForm.resx">
+      <DependentUpon>cashOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
